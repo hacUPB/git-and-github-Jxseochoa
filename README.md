@@ -1,9 +1,66 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/cyLOSpir)
 # Unidad No. 1 - Git y GitHub
+
+# Descripción del repositorio
+
+Este repositorio corresponde a la **Unidad No. 1 - Git y GitHub** y está enfocado en la creación, organización y documentación de un proyecto de programación utilizando herramientas de control de versiones. Aquí encontrarás ejemplos prácticos y explicaciones detalladas sobre el uso de la consola, la gestión de archivos y directorios, y el manejo de repositorios tanto locales como remotos con Git y GitHub.
+
+El contenido está estructurado para guiarte paso a paso en el proceso de inicialización de un proyecto, desde la creación de la estructura de carpetas, la configuración del archivo **.gitignore**, la elaboración de documentación en Markdown, hasta la sincronización del repositorio local con GitHub. Además, se incluye un ejemplo de código fuente en Python y capturas de pantalla que evidencian el uso de los comandos y las acciones realizadas durante el desarrollo de la actividad.
+
+---
+
+# Pasos para clonar y ejecutar el proyecto
+
+1. **Clona el repositorio desde GitHub:**
+   git clone https://github.com/usuario/nombre-repo.git
+2. **Accede al directorio del proyecto:**
+ 
+   cd nombre-repo
+3. **Navega a la carpeta `src` y ejecuta el script de ejemplo en Python:**
+
+   cd src
+   python script.py
+
+   **NOTA:** Asegúrate de tener Python instalado en tu sistema.
+
+---
+
+# Tabla de contenido
+
+- [Conceptos sobre el uso de la consola](docs/uso_consola.md)
+- [Cómo crear un repositorio local con Git](docs/repositorio_local.md)
+- [Cómo crear y sincronizar un repositorio remoto en GitHub](docs/repositorio_remoto.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Información del estudiante  
-Nombre del estudiante:  
-Id.:  
+Nombre del estudiante:  Jose David Ochoa Chica  
+Id.:  000567707
 ---
 # Evaluación
+**Completitud de ejercicios:**
+
+**Calidad de commits:**
+
+**Uso correcto del Fujo Git/GitHub:**
+
+**Estructura y Nomenclatura:**
 
 ### **Descripción de la Actividad:**
 
