@@ -1,26 +1,25 @@
-# Archivos y carpetas de sistema
+# Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de configuraciÃ³n de VS Code
+.vscode/
+
+# Archivos temporales del sistema operativo
 .DS_Store
 Thumbs.db
 
-# Configuración de VS Code
-.vscode/
-
-# Archivos temporales
+# Archivos de logs
 *.log
-*.tmp
 
-# Dependencias de Node.js (si usas Node)
-node_modules/
-
-# Entornos virtuales de Python (si usas Python)
-venv/
-.env
-
-# Archivos de compilación
-dist/
-build/
-out/
-
-# Archivos personales
-*.swp
-*.swo
+# Archivos de salida
+*.out
+*.o
+*.exe
