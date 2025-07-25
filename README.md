@@ -54,6 +54,13 @@ Nombre del estudiante:  Jose David Ochoa Chica
 Id.:  000567707
 ---
 # Evaluación
+**Completitud de ejercicios:**
+
+**Calidad de commits:**
+
+**Uso correcto del Fujo Git/GitHub:**
+
+**Estructura y Nomenclatura:**
 
 ### **Descripción de la Actividad:**
 
