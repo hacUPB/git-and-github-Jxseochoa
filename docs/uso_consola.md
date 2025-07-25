@@ -1,55 +1,59 @@
-# Conceptos aprendidos sobre cómo usar la consola para navegar y crear archivos y directorios. 
-**-Navegación:** Aprendimos a movernos entre carpetas usando comandos de la consola.
+# Uso de la consola: conceptos básicos
 
-**-Creación de directorios y archivos:** Podemos crear nuevas carpetas y archivos desde la terminal, sin necesidad de una interfaz gráfica.  
+La consola o terminal es una herramienta fundamental para interactuar con el sistema operativo mediante comandos de texto. Permite navegar entre carpetas, crear archivos y directorios, y ejecutar programas de manera eficiente.
 
-**-Visualización de contenido:** Podemos ver los archivos y carpetas dentro de un directorio.
+## Conceptos aprendidos
 
-**-Eliminación y renombrado:** Es posible borrar o cambiar el nombre de archivos y carpetas desde la consola.
+- **Directorio actual:** Es la carpeta en la que te encuentras trabajando en la consola.
+- **Ruta:** Es la dirección que indica la ubicación de un archivo o carpeta en el sistema.
+- **Comando:** Instrucción que se escribe en la consola para realizar una acción.
 
-# Comandos principales usados
-**pwd:** indica dónde estoy ubicado (usuario, ubicación)
+## Comandos principales
 
-**clear:** borra todo
+pwd: indica dónde estoy ubicado (usuario, ubicación)
 
-**ls:** listar archivos y carpetas (muestra todos los archivos y carpetas)
+clear: borra todo
 
-**ls -al:** mostrar todo incluyendo archivos ocultos
+ls: listar archivos y carpetas (muestra todos los archivos y carpetas)
 
-**cd (change directory) “carpeta”:** cambiar de ubicación u entrar a otra carpeta
+ls -al: mostrar todo incluyendo archivos ocultos
 
-**cd . . :** se sale de la carpeta o regresar a la carpeta anterior
+cd (change directory) “carpeta”: cambiar de ubicación u entrar a otra carpeta
 
-**mkdir “nombre”:** crear carpeta
+cd . . : se sale de la carpeta o regresar a la carpeta anterior
 
-**touch “nombre.txt”:** crear  archivo (escribir nombre sin espacio)
+mkdir “nombre”: crear carpeta
 
-**. :** significa la carpeta actual: significa la carpeta actual
+touch “nombre.txt”: crear  archivo (escribir nombre sin espacio)
 
-**-rm:** borrar carpeta
+. : significa la carpeta actual
 
-**rm -r “nombre carpeta”:** borrar carpeta sin importar que (grupo grande de archivos o carpeta completa)
+-rm: borrar carpeta
 
-**mv “nombre archivo” “nuevo nombre”:** cambiar nombre archivo u carpeta y también ubicación del archivo
+rm -r “nombre carpeta”: borrar carpeta sin importar que (grupo grande de archivos o carpeta completa)
 
-**git init:** iniciar un repositorio nuevo
+mv “nombre archivo” “nuevo nombre”: cambiar nombre archivo u carpeta y también ubicación del archivo
 
-**git branch -M main:** cambiar nombre a la rama principal
+git init: iniciar un repositorio nuevo
 
-**vim “nombre archivo”:** abre el editor de archivo
+git branch -M main: cambiar nombre a la rama principal
 
-**x:** guardar lo hecho y salir
+vim “nombre archivo”: abre el editor de archivo
 
-**q:** salir sin guardar
+x: guardar lo hecho y salir
 
-**git status:** indica el estado del repositorio
+q: salir sin guardar
 
-**git add “nombre archivo”:** hacer un checkpoint
+git status: indica el estado del repositorio
 
-**git rm —cached “nombre archivo”:** hacer unstage
+git add “nombre archivo”: hacer un checkpoint
 
-**git commit -m “mensaje”:** grabar un mensaje
+git rm —cached “nombre archivo”: hacer unstage
 
-**git log:** mostrar el historial de commit hechos
+git commit -m “mensaje”: grabar un mensaje
 
-**git commit:**  sirve para capturar una instantánea de los cambios realizados en tu proyecto y guardarla en el historial del repositorio
+git log: mostrar el historial de commit hechos
+
+```
+
+Estos comandos permiten organizar y gestionar los archivos y carpetas.
