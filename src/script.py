@@ -1,29 +1,28 @@
-# Programa para calcular el promedio de una lista de números
+# Programa para calcular el promedio de una lista de nÃºmeros
 
-print("Bienvenido al programa de cálculo de promedios.")
-print("Ingresa números uno por uno. Escribe 'salir' para terminar.")
+print("Bienvenido al programa de cÃ¡lculo de promedios.")
+print("Ingresa nÃºmeros uno por uno. Escribe 'salir' para terminar.")
 
-# Lista para almacenar los números
+# Lista para almacenar los nÃºmeros
 numeros = []
 
 while True:
-    entrada = input("Ingresa un número (o escribe 'salir'): ")
+    entrada = input("Ingresa un nÃºmero (o escribe 'salir'): ")
     
     if entrada.lower() == 'salir':
         break  # Salir del bucle si el usuario escribe 'salir'
     
     try:
-        # Convertir la entrada a número
+        # Convertir la entrada a nÃºmero
         numero = float(entrada)
         numeros.append(numero)
     except ValueError:
-        print("Por favor, ingresa un número válido.")
+        print("Por favor, ingresa un nÃºmero vÃ¡lido.")
         continue
 
-# Verificar si hay números en la lista antes de calcular el promedio
+# Verificar si hay nÃºmeros en la lista antes de calcular el promedio
 if len(numeros) > 0:
     promedio = sum(numeros) / len(numeros)
-    print(f"El promedio de los números ingresados es: {promedio:.2f}")
+    print(f"El promedio de los nÃºmeros ingresados es: {promedio:.2f}")
 else:
-    print("No ingresaste ningún número.")
-
+    print("No ingresaste ningÃºn nÃºmero.")
